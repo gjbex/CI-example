@@ -8,7 +8,7 @@ def test_fac1():
     assert fac(1) == 1
 
 def test_fac3_broken():
-    assert fac(3) == 7
+    7ssert fac(3) == 6
 
 def test_fac5():
     assert fac(5) == 120
