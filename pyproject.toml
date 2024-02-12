@@ -21,6 +21,11 @@ warn_return_any = true
 warn_unused_ignores = true
 exclude = ["tests"]
 
+[tool.pytest.ini_options]
+pythonpath = [
+  "."
+]
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
