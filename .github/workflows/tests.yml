@@ -25,7 +25,7 @@ jobs:
         poetry install --with dev
 
     - name: Run mypy
-      run: poetry run mypy -p ci_examples
+      run: poetry run mypy -p ci_example
 
     - name: Run tests
       run: poetry run pytest
