@@ -25,11 +25,3 @@ case.
 
 For that reason, the `main` branch is protected, i.e., only merges through pull
 requests are allowed, and the pull request has to pass the build test.
-
-```mermaid
-  graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
-```
